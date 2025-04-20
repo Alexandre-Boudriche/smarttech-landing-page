@@ -1,0 +1,101 @@
+@import url("components/banner.css");
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.banner {
+  background-image: url('../../images/banner-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+}
+
+.banner h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.banner h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.banner .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+.card-white {
+  background: #ffffff;
+  padding: 30px;
+  margin: 30px 0;
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-white h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.service {
+  width: 30%;
+  text-align: center;
+}
+
+.service img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.service h3 {
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+ul.list-inline {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.list-inline li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+ul.list-inline li a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+ul.list-inline li a:hover {
+  text-decoration: underline;
+}
